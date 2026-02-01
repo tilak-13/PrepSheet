@@ -1,2 +1,10 @@
 # PrepSheet
-Sales management and reporting system for restaurants
+
+PrepSheet is a web-based restaurant sales management system that allows employees to log daily sales and managers to generate monthly reports for accounting and tax purposes.
+
+## Team Members
+- Tikaharu Sharma
+- Sampada Sharma
+- Sahith Reddy Gopidi
+- Akshay Jaidi
+

@@ -1,31 +1,35 @@
 
 import AppBar from '@mui/material/AppBar'
 import Toolbar from '@mui/material/Toolbar'
-import Typography from '@mui/material/Typography'
-import Button from '@mui/material/Button'
+import IconButton from "@mui/material/IconButton";
 import Box from '@mui/material/Box'
-import { useNavigate } from 'react-router-dom'
-import { logoutMock } from '../lib/auth'
+import Avatar from "@mui/material/Avatar";
+import LightModeIcon from "@mui/icons-material/LightMode";
+
 
 export default function Navbar() {
-	const navigate = useNavigate()
-
-	const handleLogout = () => {
-		logoutMock()
-		navigate('/login')
-	}
 
 	return (
-		<AppBar position="static">
-			<Toolbar>
-				<Typography variant="h6" component="div">
-					PrepSheet
-				</Typography>
-				<Box sx={{ flexGrow: 1 }} />
-				<Button color="inherit" onClick={handleLogout}>
-					Logout
-				</Button>
-			</Toolbar>
-		</AppBar>
-	)
+	 <AppBar position="fixed"
+      color="inherit"
+      elevation={1}
+      sx={{
+        ml: "260px",
+        width: "calc(100% - 260px)"
+      }}
+    >
+      <Toolbar>
+        {/* pushes content to right */}
+        <Box sx={{ flexGrow: 1 }} />
+
+       
+        <IconButton>
+          <LightModeIcon />
+        </IconButton>
+
+      
+        <Avatar sx={{ ml: 2 }} />
+      </Toolbar>
+    </AppBar>
+  );
 }

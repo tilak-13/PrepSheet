@@ -9,6 +9,8 @@
 
 * Tikaharu Sharma
 * Sampada Sharma
+* Sahith Reddy Gopidi
+* Akshay Jaidi
 
 ---
 
@@ -68,7 +70,7 @@ Establish the foundational frontend architecture, authentication flow, navigatio
 
 ---
 
-## Planned Issues (Sprint Backlog)
+## Planned Issues 
 
 | ID  | Issue                        | Type    | Assignee   |
 | --- | ---------------------------- | ------- | ---------- |
